@@ -1,0 +1,28 @@
+//Length
+class CalcLength {
+    public static void main( String args[] ) {
+       String name = "Charles";  //Initilizing a String Object name
+       int length = name.length();  //Calling the inbuilt lenght() method
+       System.out.println("The length of the String \""+name+"\" is: " +length);    }
+}
+
+
+//Concate
+public class Test {
+   public static void main(String args[]) {
+      String s = "Strings are immutable";
+      s = s.concat(" all the time");
+      System.out.println(s);
+   }
+}
+
+//Replace
+public class Test {
+   public static void main(String args[]) {
+      String Str = new String("Welcome to Charles.com");
+      System.out.print("Return Value :" );
+      System.out.println(Str.replace('o', 'T'));
+      System.out.print("Return Value :" );
+      System.out.println(Str.replace('l', 'D'));
+   }
+}
